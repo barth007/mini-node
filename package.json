@@ -1,0 +1,30 @@
+{
+  "name": "mini-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barth007/mini-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barth007/mini-node/issues"
+  },
+  "homepage": "https://github.com/barth007/mini-node#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
